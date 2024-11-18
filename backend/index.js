@@ -3,7 +3,7 @@
 const express=require('express')
 const cors=require('cors');
 const { authRouter } = require('./routes/authRoutes');
-const config = require('./config/config');
+const config = require('./config/config1');
 const { verifyToken } = require('./middleware/authMiddleware');
 const { taskRouter } = require('./routes/taskRoutes');
 

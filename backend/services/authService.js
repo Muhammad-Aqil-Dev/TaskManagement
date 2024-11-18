@@ -1,7 +1,7 @@
 const {connDb}=require("../db/dbConnect")
 const jwt = require('jsonwebtoken');
 const bcrypt=require("bcrypt")
-const config= require('../config/config')
+const config= require('../config/config1')
 const registerUser= async function(user){
 
     let mandatoryValues=["name","email","password"]
